@@ -15,7 +15,7 @@ public class Number_Guessing_Game {
             @Override
             public void actionPerformed(ActionEvent e) {
               int myno = Integer.parseInt(mynumber.getText());
-              int no2=(int)(Math.random()*10);
+              int no2=(int)(Math.random()*100);
                 if (myno == no2) {
 
                    message.setText("Correct You Win!");
